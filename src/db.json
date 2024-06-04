@@ -1,0 +1,33 @@
+{
+    "organisations": [
+      {
+        "name": "Oceanworks®",
+        "image": "https://oceanworks.co/cdn/shop/files/OW_Resources_SustainableBrands_7a4b2f8a-6aee-4b6b-b917-a835008df0ae_1000x1000.jpg?v=1671569531",
+        "description": "Oceanworks® exists for one simple reason: to keep our ocean clean by making it easy for brands to take action against plastic pollution.",
+        "category": "Oceans",
+        "url": "https://oceanworks.co/"
+      },
+      {
+        "name": "CleanHub",
+        "image": "https://www.cleanhub.com/images/homepage/brand-section-card-3.webp",
+        "description": "CleanHubs connect people in coastal communities to waste collection. Preventing plastic from ever polluting our environment.",
+        "category": "Forest",
+        "url": "https://www.cleanhub.com/"
+      },
+      {
+        "name": "Blue Marine Foundatio",
+        "image": "https://www.bluemarinefoundation.com/wp-content/uploads/2019/09/home-1600x660.jpg",
+        "description": "Blue Marine Foundation is a charity dedicated to restoring the ocean to health by addressing overfishing, one of the world’s biggest environmental problems.",
+        "category": "Oceans",
+        "url": "https://www.bluemarinefoundation.com/"
+      },
+      {
+        "name": "Ocean Conservancy",
+        "image": "https://oceanconservancy.org/wp-content/uploads/2024/05/CrownOfThornsStarfish-ead72-Fotolia-1920x1255-1-1024x669.jpg",
+        "description": "Ocean Conservancy is working with you to protect the ocean from today’s greatest global challenges. Together, we create evidence-based solutions for a healthy ocean and the wildlife and communities that depend on it.",
+        "category": "Oceans",
+        "url": "https://oceanconservancy.org/"
+      }
+    ]
+  }
+   

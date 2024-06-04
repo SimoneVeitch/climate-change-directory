@@ -1,6 +1,24 @@
-body {
+html {
   margin: 0;
   font-family: monospace;
   background-color: blanchedalmond;
  color: crimson;
 }
+
+.card {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #e04b52;
+ }
+
+ .card img {
+  width: 100%; /* Limit the image width to the card width */
+  height: 50%; /* Limit the image height to the card height */
+object-fit: cover; /* Scale the image while maintaining aspect ratio */
+ }
+ 
