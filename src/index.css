@@ -1,24 +1,208 @@
-html {
+html, body {
   margin: 0;
   font-family: monospace;
-  background-color: blanchedalmond;
- color: crimson;
+  background-color: #fee5ca;
+ color: #b00e2f;
+ min-height: 100vh;
+}
+
+#hero-button {
+  color: #b00e2f;
+  border: 2px solid;
+  padding: 30px;
+  font-size: 40px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background: none; /* Remove background color */
+  border: none; /* Remove border color */
+  outline: none; /* Remove outline */
+  z-index: 2;
+}
+
+.link {
+  text-decoration: none; /* Remove underline from Link */
+}
+
+#hero-button:hover {
+  opacity: .7;
+}
+
+#hero-button:before, #hero-button:after {
+  content: "";
+  border: 2px solid #b00e2f;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  animation: do 2s ease-in infinite;
+}
+
+#hero-button:after{
+  animation: do 2s ease-in infinite 1s;
+}
+
+
+@keyframes do{
+ 100%{
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.home-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center;
+}
+
+.hero-copy {
+  text-align: center;
+  margin-top: 100px;
+  z-index: 2; /* Ensure it is above the background image */
+  max-width: 80%;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin: 20px 0;
+  z-index: 1;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  z-index: 10; /* Ensure it is above other content */
+}
+
+.navlink {
+  color: #b00e2f;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navlink:hover {
+  border-bottom: 2px solid blanchedalmond; 
+}
+
+.active {
+  color: rgb(21, 73, 48);
 }
 
 .card {
   text-align: center;
-  border: grey solid 1px;
-  padding: 1rem;
-  width: 15rem;
-  height: 25rem;
-  display: inline-grid;
-  margin: 1rem 2rem;
-  box-shadow: 3px 4px #e04b52;
- }
+  overflow: hidden;
+  display: flex; /* Use flexbox to arrange content */
+  flex-direction: column; /* Arrange content in a column */
+  justify-content: space-between; /* Space items evenly along the cross-axis */
+  width: 300px;
+  height: 300px;
+  background-color: #46a26c;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 1rem #0003, -0.3rem -0.3rem #153f2f, 0.3rem 0.3rem #78f2ab;
+  transition: box-shadow 0.3s;
+}
 
- .card img {
-  width: 100%; /* Limit the image width to the card width */
-  height: 50%; /* Limit the image height to the card height */
-object-fit: cover; /* Scale the image while maintaining aspect ratio */
- }
- 
+.card:hover {
+  box-shadow: 0px 0px 1rem #0003, 0.3rem 0.3rem #153f2f, -0.3rem -0.3rem #78f2ab;
+}
+
+#list-container {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children horizontally */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 50px;
+}
+
+.card h2 {
+  color: white;
+  align-content: center;
+}
+
+.card a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color from parent */
+}
+
+.result-container {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 50px;
+}
+
+.result-card {
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  width: 300px;
+  height: 300px;
+  background-color: #46a26c;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 1rem #0003, -0.3rem -0.3rem #153f2f, 0.3rem 0.3rem #78f2ab;
+  transition: box-shadow 0.3s;
+  position: relative; /* Position for absolute elements */
+}
+
+.result-card:hover {
+  box-shadow: 0px 0px 1rem #0003, 0.3rem 0.3rem #153f2f, -0.3rem -0.3rem #78f2ab;
+}
+
+.result-card img {
+  height: 20%;
+}
+
+.result-card h3 {
+  color: white;
+  padding: 5px 10px;
+}
+
+.result-card p {
+  max-width: 80%;
+  color: white;
+}
+
+.result-card a {
+  text-decoration: none;
+  color: white;
+  background-color: #004d00;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#search-bar {
+  text-align: center;
+  background-color: white;
+  border: #153f2f;
+  border-radius: 2px;
+}

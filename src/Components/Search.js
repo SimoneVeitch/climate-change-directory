@@ -7,7 +7,7 @@ function Search( {onSearch} ) {
  
   return (
     <div className="filter">
-      <input id="search-bar" type="text" placeholder="Search Notes" onChange={handleChange}/>
+      <input id="search-bar" type="text" placeholder="Search Organisations" onChange={handleChange}/>
     </div>
   );
 }

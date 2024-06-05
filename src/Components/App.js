@@ -24,7 +24,7 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path="/directorylist">
-            <DirectoryList />
+            <DirectoryList list={list}/>
           </Route>
           <Route exact path="/tips">
             <Tips />
