@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import categoryImage from "../category_image.png"
 
 function DirectoryList({ list }) {
     const [categories, setCategories] = useState([]);
@@ -13,7 +14,7 @@ function DirectoryList({ list }) {
     return (
         <div id="list-container">
             <div id="directory-h1">
-            <h1>Climate action directory</h1>
+            <h1>CATEGORIES</h1>
             </div>
             <div className="card-container">
                 {categories.map((category, index) => (
@@ -24,6 +25,9 @@ function DirectoryList({ list }) {
                     </div>
                 ))}
             </div>
+            <div className="image-container">
+                <img src={categoryImage} alt="Illustartion of family planting trees" className="category-image" />
+                </div>
         </div>
     );
 }
