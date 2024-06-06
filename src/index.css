@@ -20,14 +20,14 @@ html, body {
   cursor: pointer;
   margin-top: 20px;
   margin-bottom: 50px;
-  background: none; /* Remove background color */
-  border: none; /* Remove border color */
-  outline: none; /* Remove outline */
+  background: none; 
+  border: none; 
+  outline: none; 
   z-index: 2;
 }
 
 .link {
-  text-decoration: none; /* Remove underline from Link */
+  text-decoration: none;  */
 }
 
 #hero-button:hover {
@@ -61,7 +61,7 @@ html, body {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Align content at the top */
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -78,7 +78,7 @@ html, body {
 .hero-copy {
   text-align: center;
   margin-top: 100px;
-  z-index: 2; /* Ensure it is above the background image */
+  z-index: 2; 
   max-width: 80%;
 }
 
@@ -97,12 +97,12 @@ html, body {
   display: flex;
   justify-content: space-around;
   padding: 20px 0;
-  z-index: 10; /* Ensure it is above other content */
+  z-index: 10; 
   transition: background-color 0.3s;
 }
 
 .navbar-scrolled {
-  background-color: rgba(0, 0, 0, 0.8); /* Change this to your desired color */
+  background-color: rgba(0, 0, 0, 0.8); 
 }
 
 .navlink {
@@ -126,8 +126,8 @@ html, body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center children horizontally */
-  position: relative; /* Add this line to create a positioning context */
+  align-items: center; 
+  position: relative; 
 }
 
 .result-container {
@@ -148,8 +148,8 @@ html, body {
   position: relative;
   margin-bottom: 40px;
   display: flex;
-  justify-content: center; /* Centers the button horizontally */
-  align-items: center; /* Centers the button vertically */
+  justify-content: center;
+  align-items: center; 
   flex-direction: column;
 }
 
@@ -245,7 +245,7 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 20px; /* Ensure there's space between the cards and the image */
+  margin-bottom: 20px; 
 }
 
 .card {
@@ -256,8 +256,8 @@ html, body {
   width: 100%;
   display: flex;
   justify-content: center;
-  position: absolute; /* Position the image container absolutely */
-  bottom: 0; /* Place it at the bottom of the parent container */
+  position: absolute; 
+  bottom: 0; 
 }
 
 .category-image {
@@ -294,7 +294,7 @@ html, body {
   margin-top: 30px;
   margin-bottom: 40px;
   position: relative;
-  line-height: 1.5; /* Ensures text is centered vertically */
+  line-height: 1.5;
 }
 
 .card a:hover {
@@ -311,8 +311,8 @@ html, body {
   content: '»';
   position: absolute;
   opacity: 0;
-  top: 50%; /* Center the ::after vertically */
-  transform: translateY(-50%); /* Correct for top: 50% to center vertically */
+  top: 50%; 
+  transform: translateY(-50%); 
   right: -20px;
   transition: 0.5s;
 }
@@ -334,7 +334,7 @@ html, body {
 }
 
 .img-container {
-  flex: 0 0 35%; /* Increased width */
+  flex: 0 0 35%; 
   height: 300px;
   width: 200px;
   overflow: hidden;
@@ -381,7 +381,7 @@ html, body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center children horizontally */
+  align-items: center;
 }
 
 #contact-container h1, 
@@ -414,7 +414,7 @@ html, body {
   margin-bottom: 20px;
   border: none;
   border-radius: 5px;
-  width: 100%; /* Set width to 100% for all input elements */
+  width: 100%; 
 }
 
 .contact-form button {
