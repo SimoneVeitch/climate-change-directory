@@ -98,6 +98,11 @@ html, body {
   justify-content: space-around;
   padding: 20px 0;
   z-index: 10; /* Ensure it is above other content */
+  transition: background-color 0.3s;
+}
+
+.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.8); /* Change this to your desired color */
 }
 
 .navlink {
@@ -122,6 +127,7 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center; /* Center children horizontally */
+  position: relative; /* Add this line to create a positioning context */
 }
 
 .result-container {
@@ -136,6 +142,7 @@ html, body {
 .result-card {
   background: rgb(69, 121, 109);;
   max-width: 500px;
+  min-width: 500px;
   border-radius: 10px;
   box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
   position: relative;
@@ -257,7 +264,6 @@ html, body {
   width: 70%;
   max-width: 1000px;
   height: auto;
-  margin: 20px 0;
 }
 
 .card h2 {
@@ -316,11 +322,9 @@ html, body {
   margin-bottom: 50px;;
 }
 
-
 .tips-card {
   background: none;
-  max-width: 700px;
-  max-height: 300px;
+  max-width: 800px;
   border-radius: 10px;
   box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.2);
   position: relative;
@@ -330,7 +334,7 @@ html, body {
 }
 
 .img-container {
-  flex: 0 0 40%; /* Increased width */
+  flex: 0 0 35%; /* Increased width */
   height: 300px;
   width: 200px;
   overflow: hidden;
@@ -349,13 +353,122 @@ html, body {
 .text-container {
   flex: 1;
   color: #ffffff;
+  margin: 20px;
 }
 
 .tips-card h2 {
   margin: 0;
   font-size: 1.25rem;
+  color: #b00e2f;
 }
 
 .tips-card p {
-  margin-top: 10px;
+  margin-top: 20px;
+  color: #b00e2f;
+}
+
+.tips-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.tips-card.reverse .img-container {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+#contact-container {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children horizontally */
+}
+
+#contact-container h1, 
+#contact-container h2,
+#contact-container h3,
+#contact-container p {
+  color: rgb(47, 78, 58);
+}
+
+.contact-form {
+  background: rgb(69, 121, 109);
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%; /* Set width to 100% for all input elements */
+}
+
+.contact-form button {
+  border: none;
+  outline: none;
+  background: rgb(47, 78, 58);
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 14px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  padding: 16px;
+  width: 150px;
+  align-self: center;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: relative;
+}
+
+.contact-form button:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.contact-form button:hover::after {
+  content: '»';
+  opacity: 1;
+  right: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s;
+}
+
+.contact-form button::after {
+  content: '';
+  opacity: 0;  
+  right: -20px;
+  transition: 0.5s;
+}
+
+.contact-image {
+  height: 200px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  transition: transform 0.3s;
+}
+
+.contact-image:hover {
+  transform: scale(1.1);
+}
+
+.directory-copy {
+  text-align: center;
+  max-width: 80%;
 }

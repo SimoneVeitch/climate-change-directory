@@ -13,8 +13,9 @@ function DirectoryList({ list }) {
 
     return (
         <div id="list-container">
-            <div id="directory-h1">
-            <h1>CATEGORIES</h1>
+            <div className="directory-copy">
+      <h1>CLIMATE ACTION CATEGORIES</h1>
+            <p>Select from a category below that you are passionate about. Explore organizations that are making a positive change in the world. Choose a category that resonates with you and discover ways to get involved. Visit the organizations' pages to see how you can support them or get involved yourself.</p>
             </div>
             <div className="card-container">
                 {categories.map((category, index) => (

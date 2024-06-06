@@ -12,11 +12,18 @@ function App() {
 
   useEffect(() => {
     fetch("http://localhost:3000/organisations")
-      .then((r) => r.json())
-      .then((data) => {
-        setList(data);
-      });
-  }, []);
+        .then((response) => response.json())
+        .then((data) => {
+            setList(data);
+        })
+        .catch((error) => {
+            console.error("Error fetching organisations:", error);
+        });
+}, []);
+
+const handleAddOrganisation = (newOrganisation) => {
+    setList([...list, newOrganisation]);
+};
 
   return (
     <Router>
@@ -30,7 +37,7 @@ function App() {
             <Tips />
           </Route>
           <Route exact path="/contact">
-            <Contact />
+            <Contact onAddOrganisation={handleAddOrganisation}/>
           </Route>
           <Route exact path="/">
             <Home />
