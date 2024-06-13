@@ -6,6 +6,7 @@ import ResultsList from "./ResultsList";
 import Contact from "./Contact";
 import Tips from "./Tips";
 import Home from "./Home";
+import Footer from "./Footer";
 
 function App() {
   const [list, setList] = useState([]);
@@ -27,7 +28,7 @@ const handleAddOrganisation = (newOrganisation) => {
 
   return (
     <Router>
-      <div>
+      <div className="app-container">
         <NavBar />
         <Switch>
           <Route exact path="/directorylist">
@@ -46,6 +47,7 @@ const handleAddOrganisation = (newOrganisation) => {
             <ResultsList list={list} />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

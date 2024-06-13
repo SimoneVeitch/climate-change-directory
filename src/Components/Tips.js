@@ -1,14 +1,25 @@
 import React from "react";
 import categoryImage from "../category_image.png"
+import energy from "../light_bulb.jpg";
+import source from "../source_of_energy.jpg";
+import bike from "../bike.jpg";
+import vehicle from "../electric_vehicle.jpg";
+import travel from "../travel.jpg";
+import recycle from "../recycle.jpg";
+import vegetables from "../vegetables.jpg";
+import plant from "../plant_natives.jpg";
+import clean from "../clean_up.jpg";
+import money from "../money.jpg";
+import protest from "../protest.jpg";
 
 
 function Tips() {
- return <div id="list-container">
-   <h1 className="tips-h1">Tips</h1>
+ return <div id="tips-container">
+   <h1 className="tips-h1">TIPS</h1>
 
    <div className="tips-card">
    <div className="img-container">
-          <img src={categoryImage} alt="Tip" />
+          <img src={energy} alt="Tip" />
         </div>
         <div className="text-container">
           <h2>Save energy at home</h2>
@@ -20,30 +31,30 @@ function Tips() {
 
       <div className="tips-card reverse">
    <div className="img-container">
-          <img src={categoryImage} alt="Tip" />
+          <img src={source} alt="Tip" />
         </div>
         <div className="text-container">
           <h2>Change your home's source of energy</h2>
           <p>
-          Ask your utility company if your home energy comes from oil, coal or gas. If possible, see if you can switch to renewable sources such as wind or solar. Or install solar panels on your roof to generate energy for your home. Switching your home from oil, gas or coal-powered energy to renewable sources of energy, such as wind or solar, can reduce your carbon footprint by up to 1.5 tons of CO2e per year. Learn more about why switching to renewable energy is key to tackling the climate crisis
+          Ask your utility company if your home energy comes from oil, coal or gas. If possible, see if you can switch to renewable sources such as wind or solar. Or install solar panels on your roof to generate energy for your home. Switching your home from oil, gas or coal-powered energy to renewable sources of energy, such as wind or solar, can reduce your carbon footprint by up to 1.5 tons of CO2e per year.
           </p>
         </div>
       </div>
 
       <div className="tips-card">
    <div className="img-container">
-          <img src={categoryImage} alt="Tip" />
+          <img src={bike} alt="Tip" />
         </div>
         <div className="text-container">
           <h2>Walk, bike or take public transport</h2>
           <p>
-          The worlds roadways are clogged with vehicles, most of them burning diesel or gasoline. Walking or riding a bike instead of driving will reduce greenhouse gas emissions -- and help your health and fitness. For longer distances, consider taking a train or bus. And carpool whenever possible. Living car-free can reduce your carbon footprint by up to 2 tons of CO2e per year compared to a lifestyle using a car. Learn more about how to green your travel. </p>
+          The worlds roadways are clogged with vehicles, most of them burning diesel or gasoline. Walking or riding a bike instead of driving will reduce greenhouse gas emissions -- and help your health and fitness. For longer distances, consider taking a train or bus. And carpool whenever possible. Living car-free can reduce your carbon footprint by up to 2 tons of CO2e per year compared to a lifestyle using a car. </p>
         </div>
       </div>
 
       <div className="tips-card reverse">
    <div className="img-container">
-          <img src={categoryImage} alt="Tip" />
+          <img src={vehicle} alt="Tip" />
         </div>
         <div className="text-container">
           <h2>Switch to an electric vehicle</h2>
@@ -54,18 +65,18 @@ function Tips() {
 
       <div className="tips-card">
    <div className="img-container">
-          <img src={categoryImage} alt="Tip" />
+          <img src={travel} alt="Tip" />
         </div>
         <div className="text-container">
           <h2>Consider your travel</h2>
           <p>
-          Airplanes burn large amounts of fossil fuels, producing significant greenhouse gas emissions. That makes taking fewer flights one of the fastest ways to reduce your environmental impact. When you can, meet virtually, take a train, or skip that long-distance trip altogether. Taking one less long-haul return flight can reduce your carbon footprint by up to almost 2 tons of CO2e. Learn more about how to green your travel.</p>
+          Airplanes burn large amounts of fossil fuels, producing significant greenhouse gas emissions. That makes taking fewer flights one of the fastest ways to reduce your environmental impact. When you can, meet virtually, take a train, or skip that long-distance trip altogether. Taking one less long-haul return flight can reduce your carbon footprint by up to almost 2 tons of CO2e.</p>
         </div>
       </div>
 
       <div className="tips-card reverse">
    <div className="img-container">
-          <img src={categoryImage} alt="Tip" />
+          <img src={recycle} alt="Tip" />
         </div>
         <div className="text-container">
           <h2>Reduce, reuse, repair and recycle</h2>
@@ -76,18 +87,18 @@ function Tips() {
 
       <div className="tips-card">
    <div className="img-container">
-          <img src={categoryImage} alt="Tip" />
+          <img src={vegetables} alt="Tip" />
         </div>
         <div className="text-container">
           <h2>Eat more vegetables</h2>
           <p>
-          Eating more vegetables, fruits, whole grains, legumes, nuts, and seeds, and less meat and dairy, can significantly lower your environmental impact. Producing plant-based foods generally results in fewer greenhouse gas emissions and requires less energy, land, and water. Shifting from a mixed to a vegetarian diet can reduce your carbon footprint by up to 500 kilograms of CO2e per year (or up to 900 kilograms for a vegan diet). Learn more about the connections between food and climate change.</p>
+          Eating more vegetables, fruits, whole grains, legumes, nuts, and seeds, and less meat and dairy, can significantly lower your environmental impact. Producing plant-based foods generally results in fewer greenhouse gas emissions and requires less energy, land, and water. Shifting from a mixed to a vegetarian diet can reduce your carbon footprint by up to 500 kilograms of CO2e per year (or up to 900 kilograms for a vegan diet). </p>
         </div>
       </div>
 
       <div className="tips-card reverse">
    <div className="img-container">
-          <img src={categoryImage} alt="Tip" />
+          <img src={plant} alt="Tip" />
         </div>
         <div className="text-container">
           <h2>Plant native species</h2>
@@ -98,7 +109,7 @@ function Tips() {
 
       <div className="tips-card">
    <div className="img-container">
-          <img src={categoryImage} alt="Tip" />
+          <img src={clean} alt="Tip" />
         </div>
         <div className="text-container">
           <h2>Clean up your environment</h2>
@@ -109,7 +120,7 @@ function Tips() {
 
       <div className="tips-card reverse">
    <div className="img-container">
-          <img src={categoryImage} alt="Tip" />
+          <img src={money} alt="Tip" />
         </div>
         <div className="text-container">
           <h2>Make your money count</h2>
@@ -120,16 +131,17 @@ function Tips() {
 
       <div className="tips-card">
    <div className="img-container">
-          <img src={categoryImage} alt="Tip" />
+          <img src={protest} alt="Tip" />
         </div>
         <div className="text-container">
           <h2>Speak up</h2>
           <p>
-          Speak up and get others to join in taking action. It's one of the quickest and most effective ways to make a difference. Talk to your neighbors, colleagues, friends, and family. Let business owners know you support bold changes – from plastics-free products and packaging to zero-emissions vehicles. Appeal to local and world leaders to act now. Climate action is a task for all of us. And it concerns all of us. No one can do it all alone – but we can do it together. Explore ideas here.</p>
+          Speak up and get others to join in taking action. It's one of the quickest and most effective ways to make a difference. Talk to your neighbors, colleagues, friends, and family. Let business owners know you support bold changes – from plastics-free products and packaging to zero-emissions vehicles. Appeal to local and world leaders to act now. Climate action is a task for all of us. And it concerns all of us. No one can do it all alone – but we can do it together. </p>
         </div>
       </div>
-
-   <p>Source: https://www.un.org/en/actnow/ten-actions</p>
+      <div className="btn-tips">
+      <a href="https://www.un.org/en/actnow/ten-actions">Source</a>
+      </div>
  </div>;
 }
 

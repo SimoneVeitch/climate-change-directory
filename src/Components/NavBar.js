@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
     const [navBackground, setNavBackground] = useState(false);
-    
 
   const handleScroll = () => {
     if (window.scrollY > 50) {

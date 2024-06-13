@@ -7,7 +7,7 @@ function Contact() {
     const [category, setCategory] = useState("");
     const [website, setWebsite] = useState("");
     const [submitted, setSubmitted] = useState(false);
-    
+
     const categories = ["Oceans", "Forest", "Poverty"]; // Hardcoded categories
 
     const handleSubmit = (e) => {
