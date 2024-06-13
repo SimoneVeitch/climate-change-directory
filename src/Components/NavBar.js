@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
     const [navBackground, setNavBackground] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
 
   const handleScroll = () => {
     if (window.scrollY > 50) {
@@ -19,8 +20,18 @@ function NavBar() {
     };
   }, []);
 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+};
+
   return (
     <div className={`navbar ${navBackground ? "navbar-scrolled" : ""}`}>
+        <button className="hamburger" onClick={toggleMenu}>
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+            </button>
+            <div className={`nav-links ${menuOpen ? "open" : ""}`}>
       <NavLink to="/" exact className="navlink" activeClassName="active">
         Home
       </NavLink>
@@ -33,6 +44,7 @@ function NavBar() {
       <NavLink to="/contact" exact className="navlink" activeClassName="active">
         Contact
       </NavLink>
+    </div>
     </div>
   );
 }
