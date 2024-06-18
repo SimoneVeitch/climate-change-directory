@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import DirectoryCard from "./DirectoryCard";
 import Search from "./Search";
 
-function ResultsList({ category }) {
+function ResultsList( {category}) {
     const [organisations, setOrganisations] = useState([]);
     const [searchQuery, setSearchQuery] = useState("");
 

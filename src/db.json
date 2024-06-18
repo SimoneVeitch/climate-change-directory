@@ -15,7 +15,7 @@
       "url": "https://www.cleanhub.com/"
     },
     {
-      "name": "Blue Marine Foundatio",
+      "name": "Blue Marine Foundation",
       "image": "https://pics.craiyon.com/2023-06-21/b942cb59c0254a2eb61ae71ca3a67f72.webp",
       "description": "Blue Marine Foundation is a charity dedicated to restoring the ocean to health by addressing overfishing, one of the world’s biggest environmental problems.",
       "category": "Oceans",
@@ -29,67 +29,67 @@
       "url": "https://oceanconservancy.org/"
     },
     {
-        "name": "The Rainforest Alliance",
-        "image": "https://live.staticflickr.com/56/185198934_378e107497_b.jpg",
-        "description": "We are building an alliance to protect forests, improve the livelihoods of farmers and forest communities, promote their human rights, and help them mitigate and adapt to the climate crisis.",
-        "category": "Forests",
-        "url": "https://www.rainforest-alliance.org/"
-      },
-      {
-        "name": "WeForest",
-        "image": "https://live.staticflickr.com/56/185198934_378e107497_b.jpg",
-        "description": "Through transformative forest restoration projects, we fight climate change, boost biodiversity, and uplift local communities.",
-        "category": "Forests",
-        "url": "https://www.weforest.org/"
-      },
-      {
-        "name": "WCS",
-        "image": "https://live.staticflickr.com/56/185198934_378e107497_b.jpg",
-        "description": "WCS’s Forest and Climate Change Program works on innovative solutions to help ensure that Earth’s remaining forests and peatlands can deliver climate change mitigation and adaptation benefits at the scale we need.",
-        "category": "Forests",
-        "url": "https://www.wcs.org/"
-      },
-      {
-        "name": "CERF",
-        "image": "https://img.freepik.com/premium-photo/group-people-standing-field-with-sun-them_1130573-17847.jpg",
-        "description": "The UN Central Emergency Response Fund (CERF), managed by OCHA, is one of the fastest and most effective ways to support rapid humanitarian response for people affected by natural disasters and armed conflict. CERF receives voluntary contributions year-round to provide immediate funding for life-saving humanitarian action anywhere in the world.",
-        "category": "Humanitarian",
-        "url": "https://www.un.org/en/our-work/deliver-humanitarian-aid"
-      },
-      {
-        "name": "UNHCR",
-        "image": "https://img.freepik.com/premium-photo/group-people-standing-field-with-sun-them_1130573-17847.jpg",
-        "description": "Refugees, internally displaced and stateless people are on the frontlines of the climate crisis. UNHCR is working to protect them and strengthen their resilience to its current and future impacts, while also reducing our own environmental footprint.",
-        "category": "Humanitarian",
-        "url": "https://www.unhcr.org/"
-      },
-      {
-        "name": "World Food Programme",
-        "image": "https://img.freepik.com/premium-photo/boy-is-eating-meal-with-sunset-background_926887-152.jpg",
-        "description": "The World Food Programme (WFP) is helping food insecure communities to prepare for, respond to, and recover from climate shocks and stresses. WFP saves lives following climate-related disasters. ",
-        "category": "Food",
-        "url": "https://www.wfp.org/climate-action"
-      },
-      {
-        "name": "IFAW",
-        "image": "https://i.pinimg.com/originals/7b/f1/11/7bf111365e7f9fb7fb986d0070071802.jpg",
-        "description": "Through our wildlife conservation and animal welfare programmes, IFAW uses nature-based solutions to protect animals from the worst impacts of climate change, ensuring that the habitats and landscapes they live in are resilient to the long-term effects of climate change.",
-        "category": "Animals",
-        "url": "https://www.ifaw.org/au"
-      },
-      {
-        "name": "Four Paws",
-        "image": "https://i.pinimg.com/originals/7b/f1/11/7bf111365e7f9fb7fb986d0070071802.jpg",
-        "description": "FOUR PAWS is the global animal welfare organisation for animals under direct human influence, which reveals suffering, rescues animals in need and protects them. Our vision is a world where humans treat animals with respect, empathy and understanding.",
-        "category": "Animals",
-        "url": "https://www.four-paws.org/"
-      },
-      {
-        "name": "The Sunrise Project",
-        "image": "https://images.freeimages.com/images/large-previews/81b/windmill-sunset-1388413.jpg",
-        "description": "Driven by the imperative of climate justice, The Sunrise Project’s mission is to scale social movements to drive the transition from fossil fuels to renewable energy as fast as possible.",
-        "category": "Energy",
-        "url": "https://sunriseproject.org/"
-      }
+      "name": "The Rainforest Alliance",
+      "image": "https://live.staticflickr.com/56/185198934_378e107497_b.jpg",
+      "description": "We are building an alliance to protect forests, improve the livelihoods of farmers and forest communities, promote their human rights, and help them mitigate and adapt to the climate crisis.",
+      "category": "Forests",
+      "url": "https://www.rainforest-alliance.org/"
+    },
+    {
+      "name": "WeForest",
+      "image": "https://live.staticflickr.com/56/185198934_378e107497_b.jpg",
+      "description": "Through transformative forest restoration projects, we fight climate change, boost biodiversity, and uplift local communities.",
+      "category": "Forests",
+      "url": "https://www.weforest.org/"
+    },
+    {
+      "name": "WCS",
+      "image": "https://live.staticflickr.com/56/185198934_378e107497_b.jpg",
+      "description": "WCS’s Forest and Climate Change Program works on innovative solutions to help ensure that Earth’s remaining forests and peatlands can deliver climate change mitigation and adaptation benefits at the scale we need.",
+      "category": "Forests",
+      "url": "https://www.wcs.org/"
+    },
+    {
+      "name": "CERF",
+      "image": "https://img.freepik.com/premium-photo/group-people-standing-field-with-sun-them_1130573-17847.jpg",
+      "description": "The UN Central Emergency Response Fund (CERF), managed by OCHA, is one of the fastest and most effective ways to support rapid humanitarian response for people affected by natural disasters and armed conflict. CERF receives voluntary contributions year-round to provide immediate funding for life-saving humanitarian action anywhere in the world.",
+      "category": "Humanitarian",
+      "url": "https://www.un.org/en/our-work/deliver-humanitarian-aid"
+    },
+    {
+      "name": "UNHCR",
+      "image": "https://img.freepik.com/premium-photo/group-people-standing-field-with-sun-them_1130573-17847.jpg",
+      "description": "Refugees, internally displaced and stateless people are on the frontlines of the climate crisis. UNHCR is working to protect them and strengthen their resilience to its current and future impacts, while also reducing our own environmental footprint.",
+      "category": "Humanitarian",
+      "url": "https://www.unhcr.org/"
+    },
+    {
+      "name": "World Food Programme",
+      "image": "https://img.freepik.com/premium-photo/boy-is-eating-meal-with-sunset-background_926887-152.jpg",
+      "description": "The World Food Programme (WFP) is helping food insecure communities to prepare for, respond to, and recover from climate shocks and stresses. WFP saves lives following climate-related disasters. ",
+      "category": "Food",
+      "url": "https://www.wfp.org/climate-action"
+    },
+    {
+      "name": "IFAW",
+      "image": "https://i.pinimg.com/originals/7b/f1/11/7bf111365e7f9fb7fb986d0070071802.jpg",
+      "description": "Through our wildlife conservation and animal welfare programmes, IFAW uses nature-based solutions to protect animals from the worst impacts of climate change, ensuring that the habitats and landscapes they live in are resilient to the long-term effects of climate change.",
+      "category": "Animals",
+      "url": "https://www.ifaw.org/au"
+    },
+    {
+      "name": "Four Paws",
+      "image": "https://i.pinimg.com/originals/7b/f1/11/7bf111365e7f9fb7fb986d0070071802.jpg",
+      "description": "FOUR PAWS is the global animal welfare organisation for animals under direct human influence, which reveals suffering, rescues animals in need and protects them. Our vision is a world where humans treat animals with respect, empathy and understanding.",
+      "category": "Animals",
+      "url": "https://www.four-paws.org/"
+    },
+    {
+      "name": "The Sunrise Project",
+      "image": "https://images.freeimages.com/images/large-previews/81b/windmill-sunset-1388413.jpg",
+      "description": "Driven by the imperative of climate justice, The Sunrise Project’s mission is to scale social movements to drive the transition from fossil fuels to renewable energy as fast as possible.",
+      "category": "Energy",
+      "url": "https://sunriseproject.org/"
+    }
   ]
 }

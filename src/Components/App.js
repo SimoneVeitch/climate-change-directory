@@ -43,9 +43,12 @@ const handleAddOrganisation = (newOrganisation) => {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/results/:category">
-            <ResultsList list={list} />
-          </Route>
+          <Route
+            path="/results/:category"
+            render={({ match }) => (
+              <ResultsList category={match.params.category} />
+            )}
+          />
         </Switch>
         <Footer />
       </div>

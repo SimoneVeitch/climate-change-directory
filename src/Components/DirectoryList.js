@@ -15,7 +15,7 @@ function DirectoryList({ list }) {
         <div id="directory-container">
             <div className="directory-copy">
       <h1 className="directory-h1">DIRECTORY</h1>
-            <p>Select from a category below that you are passionate about. Explore organizations that are making a positive change in the world. Choose a category that resonates with you and discover ways to get involved. Visit the organizations' pages to see how you can support them or get involved yourself.</p>
+            <p>Explore organisations that are making a positive change in the world. Choose a category that resonates with you below and discover ways to get involved. <br /><br />Learn more about the organisations and visit their websites to see how you can support them or get involved yourself.</p>
             </div>
             <div className="card-container">
                 {categories.map((category, index) => (
