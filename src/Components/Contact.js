@@ -47,7 +47,7 @@ function Contact() {
 
     return (
         <div id="contact-container">
-          <h1>Add an organisation to the directory</h1>
+          <h1 className="contact-h1">ADD ORGANISATION</h1>
           {submitted ? (
             <p>Thank you for your submission!</p>
           ) : (
@@ -80,7 +80,7 @@ function Contact() {
               <button type="submit">Submit</button>
             </form>
           )}
-          <p>Please note: the directory is checked daily. Inaccurate or inappropriate content will be removed</p>
+          <p className="contact-p">Please note: the directory is checked daily. Inaccurate or inappropriate content will be removed</p>
         </div>
       );
     }

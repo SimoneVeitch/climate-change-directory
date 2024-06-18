@@ -26,7 +26,7 @@ function NavBar() {
 
   return (
     <div className={`navbar ${navBackground ? "navbar-scrolled" : ""}`}>
-        <button className="hamburger" onClick={toggleMenu}>
+        <button className={`hamburger ${menuOpen ? "open" : ""}`} onClick={toggleMenu}>
                 <div className="line"></div>
                 <div className="line"></div>
                 <div className="line"></div>
