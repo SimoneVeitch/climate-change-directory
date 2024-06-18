@@ -9,7 +9,7 @@ function ResultsList( {category}) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("http://localhost:3000/organisations");
+                const response = await fetch("https://climate-data.onrender.com/organisations");
                 const data = await response.json();
                 setOrganisations(data);
             } catch (error) {

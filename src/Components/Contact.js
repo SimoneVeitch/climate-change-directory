@@ -14,7 +14,7 @@ function Contact() {
         e.preventDefault();
         const newOrganisation = { name, description, category, image, website };
 
-        fetch("http://localhost:3000/organisations", {
+        fetch("https://climate-data.onrender.com/organisations", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

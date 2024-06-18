@@ -12,7 +12,7 @@ function App() {
   const [list, setList] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/organisations")
+    fetch("https://climate-data.onrender.com/organisations")
         .then((response) => response.json())
         .then((data) => {
             setList(data);
