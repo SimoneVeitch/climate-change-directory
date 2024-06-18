@@ -1,16 +1,15 @@
 import React from "react";
-import categoryImage from "../category_image.png"
-import energy from "../light_bulb.jpg";
-import source from "../source_of_energy.jpg";
-import bike from "../bike.jpg";
-import vehicle from "../electric_vehicle.jpg";
-import travel from "../travel.jpg";
-import recycle from "../recycle.jpg";
-import vegetables from "../vegetables.jpg";
-import plant from "../plant_natives.jpg";
-import clean from "../clean_up.jpg";
-import money from "../money.jpg";
-import protest from "../protest.jpg";
+import energy from "../Images_climate_site/light_bulb.png";
+import source from "../Images_climate_site/save_energy.png";
+import bike from "../Images_climate_site/bike.png";
+import vehicle from "../Images_climate_site/electric_vehicle.png";
+import travel from "../Images_climate_site/travel.png";
+import recycle from "../Images_climate_site/recycle.png";
+import vegetables from "../Images_climate_site/vegetables.png";
+import plant from "../Images_climate_site/plant_natives.png";
+import clean from "../Images_climate_site/clean_up.png";
+import money from "../Images_climate_site/money.png";
+import protest from "../Images_climate_site/protest.png";
 
 
 function Tips() {
@@ -19,7 +18,7 @@ function Tips() {
 
    <div className="tips-card">
    <div className="img-container">
-          <img src={energy} alt="Tip" />
+          <img src={energy} alt="Light bulb" />
         </div>
         <div className="text-container">
           <h2>Save energy at home</h2>
@@ -31,7 +30,7 @@ function Tips() {
 
       <div className="tips-card reverse">
    <div className="img-container">
-          <img src={source} alt="Tip" />
+          <img src={source} alt="Renewable energy image" />
         </div>
         <div className="text-container">
           <h2>Change your home's source of energy</h2>
@@ -43,7 +42,7 @@ function Tips() {
 
       <div className="tips-card">
    <div className="img-container">
-          <img src={bike} alt="Tip" />
+          <img src={bike} alt="Girl in front of bike" />
         </div>
         <div className="text-container">
           <h2>Walk, bike or take public transport</h2>
@@ -54,7 +53,7 @@ function Tips() {
 
       <div className="tips-card reverse">
    <div className="img-container">
-          <img src={vehicle} alt="Tip" />
+          <img src={vehicle} alt="Man refuelling electric vehicle" />
         </div>
         <div className="text-container">
           <h2>Switch to an electric vehicle</h2>
@@ -65,7 +64,7 @@ function Tips() {
 
       <div className="tips-card">
    <div className="img-container">
-          <img src={travel} alt="Tip" />
+          <img src={travel} alt="Image of airplane" />
         </div>
         <div className="text-container">
           <h2>Consider your travel</h2>
@@ -76,7 +75,7 @@ function Tips() {
 
       <div className="tips-card reverse">
    <div className="img-container">
-          <img src={recycle} alt="Tip" />
+          <img src={recycle} alt="Girl putting our recycling" />
         </div>
         <div className="text-container">
           <h2>Reduce, reuse, repair and recycle</h2>
@@ -87,7 +86,7 @@ function Tips() {
 
       <div className="tips-card">
    <div className="img-container">
-          <img src={vegetables} alt="Tip" />
+          <img src={vegetables} alt="Woman holding bag of vegetables" />
         </div>
         <div className="text-container">
           <h2>Eat more vegetables</h2>
@@ -98,7 +97,7 @@ function Tips() {
 
       <div className="tips-card reverse">
    <div className="img-container">
-          <img src={plant} alt="Tip" />
+          <img src={plant} alt="Woman planting natives" />
         </div>
         <div className="text-container">
           <h2>Plant native species</h2>
@@ -109,7 +108,7 @@ function Tips() {
 
       <div className="tips-card">
    <div className="img-container">
-          <img src={clean} alt="Tip" />
+          <img src={clean} alt="People cleaning up park" />
         </div>
         <div className="text-container">
           <h2>Clean up your environment</h2>
@@ -120,7 +119,7 @@ function Tips() {
 
       <div className="tips-card reverse">
    <div className="img-container">
-          <img src={money} alt="Tip" />
+          <img src={money} alt="Woman watering money tree" />
         </div>
         <div className="text-container">
           <h2>Make your money count</h2>
@@ -131,7 +130,7 @@ function Tips() {
 
       <div className="tips-card">
    <div className="img-container">
-          <img src={protest} alt="Tip" />
+          <img src={protest} alt="Protest sign" />
         </div>
         <div className="text-container">
           <h2>Speak up</h2>

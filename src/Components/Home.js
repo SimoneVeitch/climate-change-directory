@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import heroImage from "../hero_image_background_removed.png"
+import heroImage from "../Images_climate_site/hero_image_background_removed.png"
 
 function Home() {
 

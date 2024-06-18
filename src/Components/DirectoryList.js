@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import categoryImage from "../anemone-flowers-cluster-spring-blooms-decoration-floral-branches-stems-blossomed-field-plants-multicolored-wildflowers-decor-botanical-flat-vector-illustration-isolated-white-background.png"
+import categoryImage from "../Images_climate_site/anemone-flowers-cluster-spring-blooms-decoration-floral-branches-stems-blossomed-field-plants-multicolored-wildflowers-decor-botanical-flat-vector-illustration-isolated-white-background.png"
 
 function DirectoryList({ list }) {
     const [categories, setCategories] = useState([]);

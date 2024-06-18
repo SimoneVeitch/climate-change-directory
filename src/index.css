@@ -1,3 +1,5 @@
+/* Global styles */
+
 html, body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -10,6 +12,74 @@ p {
   line-height: 1.5;
   font-size: 15px;
 }
+
+.app-container {
+  min-height: 100vh;    
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+/* Navbar*/
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
+  z-index: 10; 
+  justify-content: space-between;
+  transition: background-color 0.3s;
+  align-items: center;
+}
+
+.navbar-scrolled {
+  background-color: rgba(247, 247, 247, 0.8); 
+}
+
+.navlink {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 12px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+  flex: 1; 
+  text-align: center;
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%; 
+}
+
+.navlink::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0; 
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: width 0.3s, left 0.3s; 
+}
+
+.navlink:hover::after,
+.navlink.active::after {
+  width: 50%; 
+  left: 25%; 
+}
+
+.hamburger {
+  display: none;
+}
+
+/* Home page */
 
 #hero-button {
   color: #000000;
@@ -53,7 +123,6 @@ p {
   animation: do 2s ease-in infinite 1s;
 }
 
-
 @keyframes do{
  100%{
     transform: scale(1.5);
@@ -95,55 +164,7 @@ p {
   z-index: 1;
 }
 
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  padding: 20px 0;
-  z-index: 10; 
-  justify-content: space-between;
-  transition: background-color 0.3s;
-  align-items: center;
-}
-
-.navbar-scrolled {
-  background-color: rgba(247, 247, 247, 0.8); 
-}
-
-.navlink {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-size: 12px;
-  padding: 10px 20px;
-  transition: background-color 0.3s, color 0.3s;
-  flex: 1; 
-  text-align: center;
-  position: relative;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: space-between; /* Add this */
-  width: 100%; /* Add this */
-}
-
-.navlink::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0; /* Start with zero width */
-  height: 2px;
-  background-color: rgb(0, 0, 0);
-  transition: width 0.3s, left 0.3s; /* Animate width and position */
-}
-
-.navlink:hover::after,
-.navlink.active::after {
-  width: 50%; /* Adjust this value to control the width */
-  left: 25%; /* Center the pseudo-element */
-}
+/* Results list */
 
 #list-container {
   margin-top: 100px;
@@ -154,14 +175,9 @@ p {
   position: relative; 
 }
 
-#tips-container {
-  margin-top: 100px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  position: relative; 
-  margin-bottom: 50px;
+#list-container h1 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 50px;;
 }
 
 .result-container {
@@ -277,6 +293,7 @@ p {
   width: 150px;
 }
 
+/* Directory list */
 
 .card-container {
   display: flex;
@@ -345,9 +362,40 @@ p {
   transition: 0.5s;
 }
 
-#list-container h1 {
-  color: rgb(0, 0, 0);
-  margin-bottom: 50px;;
+#directory-container {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  position: relative; 
+}
+
+.category-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+}
+
+.category-container {
+  max-width: 1000px;
+}
+
+.directory-h1 {
+  margin-bottom: 40px;
+}
+
+/* Tips */
+
+#tips-container {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  position: relative; 
+  margin-bottom: 50px;
 }
 
 #tips-container h1 {
@@ -408,6 +456,8 @@ p {
   margin-left: 20px;
 }
 
+/* Contact */
+
 #contact-container {
   margin-top: 100px;
   width: 100%;
@@ -448,25 +498,25 @@ p {
   border: none;
   border-radius: 5px;
   width: 100%; 
-  padding: 10px 10px; /* Add padding for vertical centering */
-  box-sizing: border-box; /* Ensure padding is included in the width/height calculation */
+  padding: 10px 10px; 
+  box-sizing: border-box; 
 }
 
 
 .contact-form input {
-  height: 40px; /* Set a height for consistent vertical alignment */
-  line-height: 20px; /* Ensure line-height for vertical centering */
+  height: 40px; 
+  line-height: 20px; 
 }
 
 .contact-form textarea {
-  height: 100px; /* Adjust as needed */
-  line-height: 1.5; /* Adjust line-height for better vertical alignment */
+  height: 100px; 
+  line-height: 1.5; 
 }
 
 .contact-form select {
   justify-content: center;
-  height: 40px; /* Set a height for consistent vertical alignment */
-  line-height: 20px; /* Ensure line-height for vertical centering */
+  height: 40px; 
+  line-height: 20px; 
 }
 
 .contact-form button {
@@ -519,25 +569,16 @@ p {
   width: auto;
 }
 
-#directory-container {
-  margin-top: 100px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  position: relative; 
+.contact-p {
+  text-align: center;
+  margin: 20px;
 }
 
-.category-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; 
+.contact-h1 {
+  margin-bottom: 40px;
 }
 
-.category-container {
-  max-width: 1000px;
-}
+/* Footer */
 
 .footer {
   position: relative;
@@ -550,7 +591,6 @@ p {
   justify-content: space-between; 
   align-items: center;
 }
-
 
 .footer a {
   color: rgb(0, 0, 0);
@@ -569,36 +609,11 @@ p {
   font-size: 12px;
 }
 
-.app-container {
-  min-height: 100vh;    
-  display: flex;
-  flex-direction: column;
-}
-
 .footer {
   margin-top: auto;
 }
 
-.hamburger {
-  display: none;
-}
-
-.contact-p {
-  text-align: center;
-  margin: 20px;
-}
-
-.contact-h1 {
-  margin-bottom: 40px;
-}
-
-.directory-h1 {
-  margin-bottom: 40px;
-}
-
-h1 {
-  margin-top: 50px;
-}
+/* Responsive styles */
 
 @media (max-width: 768px) {
 
@@ -631,7 +646,7 @@ h1 {
 
 .hamburger.open .line:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
-}
+} 
 
 .hamburger.open .line:nth-child(2) {
   opacity: 0;
