@@ -39,7 +39,7 @@ The app has only been tested on Chrome and Safari, which are the most commonly u
 The web application has ten components, each with its own key features and functionality.
 
 **App component**
-The App component serves as the main entry point for a React application that manages a directory of organisations. It sets up routing to different pages using React Router, fetches and maintains a list of organisations from a server, and provides functionality to add new organisations. The component also includes navigation, a footer, and several key pages: a directory list, a tips page, a contact form, a home page, and a results list filtered by category
+The App component serves as the main entry point for the application and manages a directory of organisations. It sets up routing to different pages using React Router, fetches and maintains a list of organisations from a server, and provides functionality to add new organisations. The component also includes navigation, a footer, and several key pages: a directory list, a tips page, a contact form, a home page, and a results list filtered by category
 
 **NavBar**
 The NavBar component renders a navigation bar that dynamically changes its background based on the scroll position. It also includes a hamburger menu that toggles visibility of the navigation links on smaller screens.
