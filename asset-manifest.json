@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/climate-change-directory/static/css/main.1f511c40.css",
+    "main.js": "/climate-change-directory/static/js/main.c5d7a62c.js",
+    "static/media/anemone-flowers-cluster-spring-blooms-decoration-floral-branches-stems-blossomed-field-plants-multicolored-wildflowers-decor-botanical-flat-vector-illustration-isolated-white-background.png": "/climate-change-directory/static/media/anemone-flowers-cluster-spring-blooms-decoration-floral-branches-stems-blossomed-field-plants-multicolored-wildflowers-decor-botanical-flat-vector-illustration-isolated-white-background.0ede7188a2bc67d35db0.png",
+    "static/media/hero_image_background_removed.png": "/climate-change-directory/static/media/hero_image_background_removed.922a0e7a6483b19aefb2.png",
+    "static/media/travel.png": "/climate-change-directory/static/media/travel.1e176ed26616f125ba74.png",
+    "static/media/recycle.png": "/climate-change-directory/static/media/recycle.ce52dda29f5f2f97125e.png",
+    "static/media/plant_natives.png": "/climate-change-directory/static/media/plant_natives.92cac82920aefd302f06.png",
+    "static/media/save_energy.png": "/climate-change-directory/static/media/save_energy.8d7ee77a82de3bbd734e.png",
+    "static/media/bike.png": "/climate-change-directory/static/media/bike.bc42922a75b7b1d36da3.png",
+    "static/media/light_bulb.png": "/climate-change-directory/static/media/light_bulb.7682b205d7f1276c306e.png",
+    "static/media/clean_up.png": "/climate-change-directory/static/media/clean_up.bdbcc3694f82b81cc85d.png",
+    "static/media/money.png": "/climate-change-directory/static/media/money.87a025f675050373440f.png",
+    "static/media/electric_vehicle.png": "/climate-change-directory/static/media/electric_vehicle.dc29e1019d3458af60c1.png",
+    "static/media/vegetables.png": "/climate-change-directory/static/media/vegetables.04f8300e1286a9c43486.png",
+    "static/media/protest.png": "/climate-change-directory/static/media/protest.e2d4e78a89e574a222c1.png",
+    "index.html": "/climate-change-directory/index.html",
+    "main.1f511c40.css.map": "/climate-change-directory/static/css/main.1f511c40.css.map",
+    "main.c5d7a62c.js.map": "/climate-change-directory/static/js/main.c5d7a62c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f511c40.css",
+    "static/js/main.c5d7a62c.js"
+  ]
+}
