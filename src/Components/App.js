@@ -12,14 +12,16 @@ function App() {
   const [list, setList] = useState([]);
 
   useEffect(() => {
-    fetch("https://climate-data.onrender.com/organisations")
-        .then((response) => response.json())
-        .then((data) => {
+    const fetchData = async () => {
+        try {
+            const response = await fetch("https://climate-data.onrender.com/organisations");
+            const data = await response.json();
             setList(data);
-        })
-        .catch((error) => {
+        } catch (error) {
             console.error("Error fetching organisations:", error);
-        });
+        }
+    };
+    fetchData();
 }, []);
 
 const handleAddOrganisation = (newOrganisation) => {
@@ -27,7 +29,6 @@ const handleAddOrganisation = (newOrganisation) => {
 };
 
   return (
-    <Router>
       <div className="app-container">
         <NavBar />
         <Switch>
@@ -52,7 +53,6 @@ const handleAddOrganisation = (newOrganisation) => {
         </Switch>
         <Footer />
       </div>
-    </Router>
   );
 }
 

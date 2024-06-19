@@ -8,7 +8,7 @@ function Home() {
     <div className="home-container">
    <div className="hero-copy">
       <h1>CLIMATE ACTION DIRECTORY</h1>
-    <img src={heroImage} alt="Hero Image" className="hero-image" />
+    <img src={heroImage} alt="Illustration of people standing around earth" className="hero-image" />
     <p>
     Are you ready to make a difference in the fight against climate change? Feeling overwhelmed about where to begin? Explore our Climate Action Directory! Discover a curated list of organisations actively combating the climate crisis, conveniently categorised for your ease.
     From supporting initiatives to getting directly involved, there's a place for everyone.<br /><br />

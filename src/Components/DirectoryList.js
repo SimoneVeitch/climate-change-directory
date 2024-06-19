@@ -15,7 +15,7 @@ function DirectoryList({ list }) {
         <div id="directory-container">
             <div className="directory-copy">
       <h1 className="directory-h1">DIRECTORY</h1>
-            <p>Explore organisations that are making a positive change in the world. Choose a category that resonates with you below and discover ways to get involved. <br /><br />Learn more about the organisations and visit their websites to see how you can support them or get involved yourself.</p>
+            <p>Explore organisations that are taking climate action by choosing a category that resonates with you below and discover organisations who are making a positive change in that category. <br /><br />Learn more about the organisations and visit their websites to see how you can support them or get involved yourself.</p>
             </div>
             <div className="card-container">
                 {categories.map((category, index) => (
@@ -27,7 +27,7 @@ function DirectoryList({ list }) {
                 ))}
             </div>
             <div className="category-container">
-                <img src={categoryImage} alt="Illustartion of family planting trees" className="category-image" />
+                <img src={categoryImage} alt="Illustration of flowers" className="category-image" />
                 </div>
         </div>
     );

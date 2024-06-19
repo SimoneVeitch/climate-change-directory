@@ -13,8 +13,9 @@ import protest from "../Images_climate_site/protest.png";
 
 
 function Tips() {
- return <div id="tips-container">
-   <h1 className="tips-h1">TIPS</h1>
+ return (
+ <div id="tips-container">
+<h1 className="tips-h1">TIPS</h1>
 
    <div className="tips-card">
    <div className="img-container">
@@ -141,7 +142,8 @@ function Tips() {
       <div className="btn-tips">
       <a href="https://www.un.org/en/actnow/ten-actions">Source</a>
       </div>
- </div>;
+ </div>
+ );
 }
 
 
