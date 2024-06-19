@@ -4,9 +4,9 @@
 
 If you want to get involved in the fight against climate change, but feel overwhelmed about where to start, the Climate Action Directory is for you. 
 
-The web aplication list organisations actively combating the climate crisis, conveniently categorised for user's ease. 
+The web aplication lists organisations actively combating the climate crisis, conveniently categorised for user's ease. 
 
-The web application also provides a list of  simple, everyday actions you users can take to fight climate on a small scale. 
+The web application also provides a list of  simple, everyday actions users can take to help improve the climate crisis on a small scale. 
 
 Users can also add an organisation to the directory by submitting a form with the organisation's details. 
 
