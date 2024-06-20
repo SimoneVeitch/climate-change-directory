@@ -10,33 +10,42 @@ function Contact() {
 
     const categories = ["Oceans", "Forests", "Humanitarian", "Food", "Animals", "Energy"]; // Hardcoded categories
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        const newOrganisation = { name, description, category, image, website };
-
-        fetch("https://climate-data.onrender.com/organisations", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(newOrganisation)
-    })
-    .then(response => {
-        if (!response.ok) {
-            throw new Error("Failed to add organisation");
+        const newOrganisation = { id: Date.now(), name, description, category, image, website };
+    
+        console.log("Submitting:", newOrganisation); // Add console log for debugging
+    
+        try {
+            const response = await fetch("https://climate-data.onrender.com/organisations", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(newOrganisation)
+            });
+    
+            console.log("Response status:", response.status); // Log response status
+    
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`Server error: ${response.status} - ${errorText}`);
+            }
+    
+            const data = await response.json();
+    
+            if (data.error) {
+                throw new Error(data.error);
+            }
+    
+            console.log("Organisation added:", data);
+            setSubmitted(true);
+            clearForm();
+        } catch (error) {
+            console.error("Error adding organisation:", error.message);
         }
-        return response.json();
-    })
-    .then(data => {
-        console.log("Organisation added:", data);
-        setSubmitted(true);
-        clearForm();
-    })
-    .catch(error => {
-        console.error("Error adding organisation:", error);
-    });
-};
-
+    };
+    
     const clearForm = () => {
         setName("");
         setDescription("");
