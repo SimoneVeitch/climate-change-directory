@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/climate-change-directory/static/css/main.17aad106.css",
-    "main.js": "/climate-change-directory/static/js/main.6b83a4d3.js",
+    "main.js": "/climate-change-directory/static/js/main.1c2b709e.js",
     "static/media/anemone-flowers-cluster-spring-blooms-decoration-floral-branches-stems-blossomed-field-plants-multicolored-wildflowers-decor-botanical-flat-vector-illustration-isolated-white-background.png": "/climate-change-directory/static/media/anemone-flowers-cluster-spring-blooms-decoration-floral-branches-stems-blossomed-field-plants-multicolored-wildflowers-decor-botanical-flat-vector-illustration-isolated-white-background.0ede7188a2bc67d35db0.png",
     "static/media/hero_image_background_removed.png": "/climate-change-directory/static/media/hero_image_background_removed.922a0e7a6483b19aefb2.png",
     "static/media/travel.png": "/climate-change-directory/static/media/travel.1e176ed26616f125ba74.png",
@@ -17,10 +17,10 @@
     "static/media/protest.png": "/climate-change-directory/static/media/protest.e2d4e78a89e574a222c1.png",
     "index.html": "/climate-change-directory/index.html",
     "main.17aad106.css.map": "/climate-change-directory/static/css/main.17aad106.css.map",
-    "main.6b83a4d3.js.map": "/climate-change-directory/static/js/main.6b83a4d3.js.map"
+    "main.1c2b709e.js.map": "/climate-change-directory/static/js/main.1c2b709e.js.map"
   },
   "entrypoints": [
     "static/css/main.17aad106.css",
-    "static/js/main.6b83a4d3.js"
+    "static/js/main.1c2b709e.js"
   ]
 }
