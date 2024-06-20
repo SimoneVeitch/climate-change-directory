@@ -25,7 +25,7 @@ function Contact() {
                 body: JSON.stringify(newOrganisation)
             });
     
-            console.log("Response status:", response.status); /
+            console.log("Response status:", response.status); 
     
             if (!response.ok) {
                 const errorText = await response.text();

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import NavBar from "./NavBar";
 import DirectoryList from "./DirectoryList";
 import ResultsList from "./ResultsList";
@@ -48,6 +48,7 @@ const handleAddOrganisation = (newOrganisation) => {
               <ResultsList category={match.params.category} />
             )}
           />
+          <Redirect to="/" />
         </Switch>
         <Footer />
       </div>
