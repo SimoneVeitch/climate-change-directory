@@ -14,7 +14,7 @@ function Contact() {
         e.preventDefault();
         const newOrganisation = { id: Date.now(), name, description, category, image, website };
     
-        console.log("Submitting:", newOrganisation); // Add console log for debugging
+        console.log("Submitting:", newOrganisation); 
     
         try {
             const response = await fetch("https://climate-data.onrender.com/organisations", {
@@ -25,7 +25,7 @@ function Contact() {
                 body: JSON.stringify(newOrganisation)
             });
     
-            console.log("Response status:", response.status); // Log response status
+            console.log("Response status:", response.status); /
     
             if (!response.ok) {
                 const errorText = await response.text();
