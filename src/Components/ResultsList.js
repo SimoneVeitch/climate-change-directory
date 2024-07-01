@@ -30,7 +30,6 @@ function ResultsList( {category}) {
     };
 
     return (
-        <>
             <div id="list-container">
                 <h1>Results</h1>
                 <Search onSearch={handleSearch} />
@@ -40,8 +39,9 @@ function ResultsList( {category}) {
                     ))}
                 </div>
             </div>
-        </>
     );
 }
 
 export default ResultsList;
+
+
