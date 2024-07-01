@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Contact() {
+function Contact({ onAddOrganisation }) {
     const [name, setName] = useState("");
     const [description, setDescription] = useState("");
     const [image, setImage] = useState("");
@@ -41,6 +41,7 @@ function Contact() {
             console.log("Organisation added:", data);
             setSubmitted(true);
             clearForm();
+            onAddOrganisation(data);
         } catch (error) {
             console.error("Error adding organisation:", error.message);
         }

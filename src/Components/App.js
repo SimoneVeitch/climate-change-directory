@@ -30,13 +30,13 @@ const handleAddOrganisation = (newOrganisation) => {
       <div className="app-container">
         <NavBar />
         <Switch>
-          <Route exact path="/directorylist">
+          <Route path="/directorylist">
             <DirectoryList list={list}/>
           </Route>
-          <Route exact path="/tips">
+          <Route path="/tips">
             <Tips />
           </Route>
-          <Route exact path="/contact">
+          <Route path="/add">
             <Contact onAddOrganisation={handleAddOrganisation}/>
           </Route>
           <Route exact path="/">

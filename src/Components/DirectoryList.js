@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import categoryImage from "../Images_climate_site/anemone-flowers-cluster-spring-blooms-decoration-floral-branches-stems-blossomed-field-plants-multicolored-wildflowers-decor-botanical-flat-vector-illustration-isolated-white-background.png"
+import categoryImage from "../Images_climate_site/anemone-flowers-cluster-spring-blooms-decoration-floral-branches-stems-blossomed-field-plants-multicolored-wildflowers-decor-botanical-flat-vector-illustration-isolated-white-background.png";
+import DirectoryCategory from "./DirectoryCategory";
 
 function DirectoryList({ list }) {
     const [categories, setCategories] = useState([]);
@@ -19,15 +20,11 @@ function DirectoryList({ list }) {
             </div>
             <div className="card-container">
                 {categories.map((category, index) => (
-                    <div key={index} className="card">
-                        <Link to={`/results/${category.toLowerCase()}`}>
-                            <h2>{category}</h2>
-                        </Link>
-                    </div>
+                   <DirectoryCategory key={index} category={category} />
                 ))}
             </div>
             <div className="category-container">
-                <img src={categoryImage} alt="Illustration of flowers" className="category-image" />
+                <img src={categoryImage} alt="Illustration of" className="category-image" />
                 </div>
         </div>
     );

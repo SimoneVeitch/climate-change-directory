@@ -5,15 +5,15 @@ function NavBar() {
     const [navBackground, setNavBackground] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleScroll = () => {
-    if (window.scrollY > 50) {
-      setNavBackground(true);
-    } else {
-      setNavBackground(false);
-    }
-  };
-
   useEffect(() => {
+    const handleScroll = () => {
+        if (window.scrollY > 50) {
+          setNavBackground(true);
+        } else {
+          setNavBackground(false);
+        }
+      };
+      
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -41,8 +41,8 @@ function NavBar() {
       <NavLink to="/tips" exact className="navlink" activeClassName="active">
         Tips
       </NavLink>
-      <NavLink to="/contact" exact className="navlink" activeClassName="active">
-        Contact
+      <NavLink to="/add" exact className="navlink" activeClassName="active">
+        Add organisation
       </NavLink>
     </div>
     </div>
